@@ -74,8 +74,8 @@ function f_rock() {
   }
   else {
     flag_rock = true;
-    $("#f_rock").fadeTo(300, 0.4);
-    $("#f_rock1").fadeTo(300, 0.4);
+    $("#f_rock").fadeTo(500, 0.4);
+    $("#f_rock1").fadeTo(500, 0.4);
     UpdateDbData("flag_r",0);
   }
 }
