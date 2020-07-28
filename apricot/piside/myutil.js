@@ -34,7 +34,8 @@ function checkSetDatabase(){
         var warehouse = snapshot.val();
         noty_flag = warehouse.noty;
 	rock_flag = warehouse.flag_r;
-        $('#firebase_data').text(noty_flag+","+rock_flag);
+	pi_network = warehouse.pi_notify;
+        $('#firebase_data').text(noty_flag+","+rock_flag+","+pi_network);
         if(noty_flag == 4)
         {
           document.getElementById("remoteVideo").muted = false;
