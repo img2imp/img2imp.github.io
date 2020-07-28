@@ -11,6 +11,7 @@ $(function() {
 
 function load_all()
 {
+  $("#remoteVideo").removeClass("gif");		
   drop1();
   $("#f_mute").fadeTo(300, 0.4);
   $("#f_mute1").fadeTo(300, 0.4);
