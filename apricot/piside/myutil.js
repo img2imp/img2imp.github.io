@@ -33,6 +33,8 @@ function checkSetDatabase(){
      dbRef.on('value', function(snapshot) {
         var warehouse = snapshot.val();
         noty_flag = warehouse.noty;
+	rock_flag = warehouse.flag_r;
+        $('#firebase_data').text(noty_flag+","+rock_flag);
         if(noty_flag == 4)
         {
           document.getElementById("remoteVideo").muted = false;
