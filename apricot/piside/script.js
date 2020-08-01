@@ -51,6 +51,7 @@ drone.on('open', error => {
   room.on('member_leave', function(member) {
     console.log("leave leave leave");
     UpdateDbData("noty",0);
+    location.reload();
   });
 
 });
