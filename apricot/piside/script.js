@@ -159,7 +159,7 @@ function AudioCheckStart(stream) {
           //console.log(Math.round(average));
           if((Math.round(average))>32)
           {
-            if(stabletime>60)
+            if(stabletime>150)
             {
               NotyfySound();
               console.log("call firebase sound function");
