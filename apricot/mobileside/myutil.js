@@ -6,7 +6,8 @@ var user_id;
 $(function() {
   id = location.hash.substring(1,7);
   // console.log(id);
-  // console.log( "ready!" );
+  // console.log( "moile muted!" );
+	f_mute();
 });
 
 function load_all()
